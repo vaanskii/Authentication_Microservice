@@ -40,13 +40,15 @@ REST_FRAMEWORK = {
     ],
 }
 
-#CORS_ALLOWED_ORIGINS = [
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:8080",
+    "http://192.168.1.106:8080"
+]
 
-#]
-
-#CSRF_TRUSTED_ORIGINS = [
-
-#]
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:8080",
+    "http://192.168.1.106:8080"
+]
 
 
 # Application definition
